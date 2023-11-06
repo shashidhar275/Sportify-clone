@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    font-family: ubuntu , sans-serif;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+
+.brand img{
+    width : 40px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+nav ul li{
+    padding: 0 10px;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round' , sans-serif;
+    display: flex;
+    margin: 8px auto;
+    width: 75%;
+    border-radius: 15px;
+    padding: 13px 0 10px 25px;
+    background-image: url('backgrounds/Free\ Vector\ _\ Musical\ notes\ pattern\ on\ black\ background.jpeg');
+}
+
+.bottom{
+    position: relative;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#myProgressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.icons{
+    margin-top: 12px;
+}
+
+.songItem{
+    display: flex;
+    height: 50px;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.songItem img{
+    margin: 0 20px;
+    object-fit: cover;
+    width: 40px;
+    border-radius: 30px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 14px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 130px;
+    bottom: 10px;
+    font-family: 'Varela Round' , sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    width: 40px;
+}
